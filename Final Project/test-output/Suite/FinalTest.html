@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  FinalTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FinalTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 01 20:21:24 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108599 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.CreateAccount()'><b>CreateAccount</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>0</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.twitterwindow()'><b>twitterwindow</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>4</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.Orderconfirmation()'><b>Orderconfirmation</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>1</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.upload()'><b>upload</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>0</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.Paymentmethod()'><b>Paymentmethod</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>8</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.ContactLink()'><b>ContactLink</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>5</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.Email()'><b>Email</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>0</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.product2continue()'><b>product2continue</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>15</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.Product1()'><b>Product1</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>15</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.Product2()'><b>Product2</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>9</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.FillDetails()'><b>FillDetails</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>9</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.Heading()'><b>Heading</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>0</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.reference()'><b>reference</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>0</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.TermsandConditions()'><b>TermsandConditions</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>6</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.ChoosingProducts.DeliveryAddress()'><b>DeliveryAddress</b><br>Test class: DemoShoppingWebsite.ChoosingProducts</td>
+<td></td>
+<td>4</td>
+<td>DemoShoppingWebsite.ChoosingProducts@4c9f8c13</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.site1()'><b>site1</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>16</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.message()'><b>message</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>3</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+<tr>
+<td title='DemoShoppingWebsite.CustomerService.send()'><b>send</b><br>Test class: DemoShoppingWebsite.CustomerService</td>
+<td></td>
+<td>7</td>
+<td>DemoShoppingWebsite.CustomerService@418e7838</td></tr>
+</table><p>
+</body>
+</html>
